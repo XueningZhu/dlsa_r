@@ -11,11 +11,9 @@ Please run 'main.sh' to obtain the Example 1--Example 5.
  - simulator: simulate data in local workers
 
 ## 2. Compare with CSL method 
-CSL method: proposed by Jordan and Yang (2019, JASA) [in the file jordan_compare]
- - dlsa_jordan_compare.R: main demo code, which runs the distributed logistic regression and compares with Jordan's method
- - jordan_func.R: functions which implement Jordan's method
+CSL method: proposed by Jordan and Yang (2019, JASA) [in the file comparison]
+ - dlsa_compare.R: main demo code, which runs the distributed logistic regression and compares with CSL method
+ - compare_func.R: functions which implement CSL method
  
-## 3. Bias Correction (please ignore this file)
- - dlsa_bias_correct: bias correction for the distributed LSA (currently doesn't work)
- - bias_correct: bias correction in the non-distributed case using Jackknife estiamtor
- - func_bias_correction: bias correction functions (non-distributed and distributed) for logistic regression
+## 3. Spark implementation
+See https://github.com/feng-li/dlsa for more details.

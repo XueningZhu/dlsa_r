@@ -6,7 +6,7 @@ source("wlse_func.R")
 source("dlsa_alasso_func.R")
 source("func_others.R")
 source("simulator.R")
-source("comparison/jordan_func.R")
+source("comparison/compare_func.R")
 
 # sample size
 N = 1000
