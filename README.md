@@ -15,7 +15,7 @@ Please run 'main.sh' to obtain the Example 1--Example 5.
  - func_others: other functions, e.g., output function, format function and others.
  - simulator: simulate data in local workers
 
-## 2. Compare with CSL method 
+## 2. Comparison with other methods 
 CSL method: proposed by Jordan and Yang (2019, JASA) [in the file comparison]
  - dlsa_compare.R: main demo code, which runs the distributed logistic regression and compares with CSL method
  - compare_func.R: functions which implement CSL method
