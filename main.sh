@@ -1,5 +1,3 @@
-cd ~/DLSA/DLSA_code/
-
 nohup Rscript main.R 1 > main_1_out &
 nohup Rscript main.R 2 > main_2_out &
 nohup Rscript main.R 3 > main_3_out &
